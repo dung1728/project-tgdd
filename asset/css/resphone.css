@@ -49,3 +49,26 @@
         margin: auto;
     }
 }
+    @media  screen and (max-width: 380px ){
+        .function-laptop-list > ul > li > a > i {
+            font-size: 20px;
+    }
+        .function-laptop-list > ul > li > p {
+    color: #01415b;
+    font-size: 10px;
+    line-height: 17px;
+    margin: 10px -8px;
+    }
+        .fixed-laptop{
+            position: fixed;
+            top: 53px;
+            height: 100px;
+        }
+        .trademark-laptop-img > img{
+            hight: 30px;
+            margin: 6px 1px;
+        }
+        .trademark-laptop-img > img{
+            width: 30px;
+        }
+}
