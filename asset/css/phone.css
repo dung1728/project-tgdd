@@ -1,0 +1,305 @@
+.slider-top-phone{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 10px;
+}
+.slider-phone-container{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-top-item-left{
+    position: relative;
+    width: 65%;
+}
+.slider-img-phone > img{
+    width: 100%;
+    height: 207px;
+}
+.btn-slide-phone{
+    position: absolute;
+    top: 40%;
+    background: #f1efef ;
+    width: 35px;
+    border-radius: 5px;
+    height: 60px;
+}
+.btn-slide-phone > i{
+    font-size: 35px;
+    color: rgb(161, 161, 161);
+    margin: 14px 3px;
+}
+
+.phone-right{
+    position: absolute;
+    right: 0;
+}
+.slider-top-item-right{
+    width: 34%;
+}
+.slider-top-right-item > li > a > img{
+    width: 100%;
+}
+/* fillter */
+.nav-filter{
+    margin-top: 20px;
+}
+.nav-filter-item{
+    max-width: 1200px;
+    margin: auto;
+}
+.list-filter {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+.list-filter > li{
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px 17px;
+    position: relative;
+}
+.list-filter > li > a{
+    color: black;
+    /* position: relative; */
+}
+.down{
+    position: absolute;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.up{
+    position: absolute;
+    right: 5px;
+    top: 30%;
+    display:none;
+}
+.filter-paren{
+    position: relative;
+}
+/* list-product */
+.list-product-phone{
+    margin-top: 20px;
+
+}
+.list-product-phone-item{
+    max-width: 1200px;
+    margin: auto;
+}
+.title-product-item{
+    display: flex;
+    justify-content: space-between;
+}
+.title-product-item-left{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.title-product-item-left > li{
+    display: flex;
+
+}
+.title-product-item-left > li >input{
+    outline: none;
+    margin: 3px;
+}
+.title-product-item-right >li{
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 3px;
+}
+.title-product-item-right >li > i{
+    margin-left: 3px;
+}
+.list-product-phone-conten{
+    margin-top: 20px;
+}
+.fixed-phone{
+    position: fixed;
+    background: rgb(150, 150, 150);
+    top: 0px;
+    height: 60px;
+    z-index: 999;
+    margin: auto;
+    width: 100%;
+}
+.phone-product-text > li:first-child {
+    display: none;
+}
+.box-Rom{
+    display: flex;
+}
+.box-btn-phone{
+    border: 1px solid #e0e0e0;
+    width: 30%;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+}
+.btn-256GB{
+    display: none;
+}
+.btn-512GB{
+    display: none;
+}
+.btn-1T{
+    display: none;
+}
+.img-256{
+    display: none;
+}
+.img-512{
+    display: none;
+}
+.img-1T{
+    display: none;
+}
+.list-product-phone-bottom{
+    max-width: 1200px;
+    padding-top: 35px;
+    margin: auto;
+}
+.list-product-phone-bottom-item{
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+.list-product-phone-bottom-item > h2{
+    line-height: 60px;
+    font-size: 16px;
+}
+.the-firm-list-nav{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+}
+.item-the-firm-nav{
+    padding: 19px;
+}
+/* fillter down */
+.filter-dropdown{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.filter-down{
+    width: 900px;
+    height: 600px;
+    background: #fff;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 100px;
+    right: 561px;
+}
+.filter-down::before{
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background: #fff;
+    transform: rotate(45deg);
+    top: 10px;
+    left: 0;
+    box-shadow: -2px -2px 5px -4px;
+}
+.exit-filter{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+.exit-filter-item{
+    width: 60px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+
+}
+.exit-filter-item > a{
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+.filter-down-list{
+    display: block;
+    margin-top: 20px;
+    
+}
+.the-firm{
+   display: block; 
+}
+.text-filter{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+    white-space: normal;
+    margin: 10px;
+}
+.the-firm-list{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.border-lits-phone{
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.border-lits-phone > a{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(1, 165, 206);
+}
+.border-filter{
+    width: 100%;
+    height: 3px;
+    background: black;
+}
+.filter-center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-phone{
+    max-width: 33%;
+    float: left;
+}
+.price-phone-item{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.type-phone{
+    max-width: 33%;
+}
+.list-type-phone , .performance-pin-list{
+    margin-top: 25px;
+}
+.filter-bottom , .filter-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.ram-phone , .rom-phone, .camera-phone, .special-features-phone , .design-phone, .screen-phone{
+    max-width: 33%;
+}
+.filter-list , .rom-list, .camera-list , .special-features-list , .desgin-list{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.the-firm-drop{
+    position: absolute;
+}
+.the-firm-paren{
+    position: relative;
+}

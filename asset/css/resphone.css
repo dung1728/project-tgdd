@@ -1,0 +1,51 @@
+@media only screen and  (max-width: 1025px){
+    #nav{
+        padding: 10px;
+    }
+    .slider-top-item-left{
+        width: 100%;
+    }
+    .slider-img-phone > img{
+        width: 100%;
+        height: auto;
+    }
+    .btn-slide-phone{
+        display: none;
+    }
+    .slider-top-item-right{
+        display: none;
+    }
+    .list-filter {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .list-filter > li{
+        margin: 7px;
+    }
+    .the-firm-list-nav{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .title-product-item-left > li:nth-child(1){
+        margin-top: 60px;
+    }
+    .title-product-item-right > li{
+        margin: 10px;
+    }
+    .container-phone {
+        display: grid;
+        margin: 0;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .list-img > img {
+        margin: auto;
+    }
+}

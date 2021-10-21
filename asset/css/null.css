@@ -1,0 +1,9 @@
+.loading{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 120px 0;
+}
+.loading > img{
+    width: 100%;
+}

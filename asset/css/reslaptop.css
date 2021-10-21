@@ -1,0 +1,26 @@
+@media only screen and  (max-width: 1025px) {
+    .fixed-laptop{
+        max-width: 1024px;
+        position: fixed;
+        top: 0;
+    }
+    .baner-sum-laptop > img {
+        width: 100%;
+    }
+    .product-laptop-sum{
+        display: grid;
+        column-gap: 8px;
+        row-gap: 8px;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .list-product-img{
+        text-align: center;
+    }
+    .list-product-img > img{
+        width: 100%;
+    }
+    .function-laptop-list > ul > li > a > i{
+        width: 30px;
+        height: 30px;
+    }
+}

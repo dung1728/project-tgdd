@@ -1,0 +1,90 @@
+@media only screen and  (max-width: 1025px){
+    .header-qa{
+        display: none;
+    }
+    .conten-qa-left{
+        display: none;
+    }
+    .hotweek{
+        display: none;
+    }
+    .header-qa-res{
+        display: block;
+        background: #f4f4f4;
+        position: relative;;
+    }
+    .header-qa-item-res{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .ask-btn{
+        border: none;
+        background: border-box;
+        border-right: 1px solid #884545;
+        width: 20%;
+        border-radius: none;
+    }
+    .header-qa-product{
+        width: 76%;
+    }
+    .seach-ask{
+        display: none;
+    }
+    .conten-qa-left-res{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+        clear: both;
+        display: block;
+    }
+    .conten-qa-left-item-tilte{
+        display: block;
+        overflow: hidden;
+        line-height: 1.3em;
+        font-size: 13px;
+        padding: 20px 10px 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .conten-qa-left-item-list-res > ul{
+        width: unset;
+        height: unset;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 10px;
+    }
+    .conten-qa-left-item-list-res > ul > li{
+        display: inline-block;
+        overflow: hidden;
+        border-top: 1px solid #eee;
+        width: auto;
+        border: solid 1px #d9d9d9;
+        padding: 0 10px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        margin: 18px 10px 0 0;
+        box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
+        width: calc(25% - 10px) !important;
+    }
+    .conten-qa-left-item-list-res > ul > li > label{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    .conten-qa-left-item-list-res > ul > li > label > i{
+        font-size: 25px;
+        color: rgb(247, 243, 6);
+    }
+    .conten-qa-left-item-list-res > ul > li > label > a{
+        display: block;
+        overflow: hidden;
+        vertical-align: middle;
+        color: #288ad6;
+        padding: 3px 0;
+        margin-left: 5px;
+    }
+    .down-qa-conten{
+        display: none;
+    }
+}
